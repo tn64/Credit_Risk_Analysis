@@ -53,7 +53,15 @@ model and to decrease the its variance.
 
 ## Summary:
 
-There is a summary of the results (2 pt)
+The purpose of this analysis was to determine which of the models was most reliable in detecting high risk loans ("bad" risk). 
+The first question to answer is whether precision or sensitivity is most important. For this analysis I concluded that precision
+is more important than sensitivity. I believe it is more important to identify "bad" risk and possibly allow a small
+number of "bad" risk credit to be extended than to deny credit to a "good" risk candidate. There are options available for
+companies to address repayment problems in order to mitigate loss, while companies face the prospect of absolute loss of revenue 
+if they decline "good" risk candidates.
+
+The best performing models in assessing precision are:
+
 
 There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 
