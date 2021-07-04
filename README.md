@@ -53,17 +53,9 @@ model and to decrease the its variance.
 
 ## Summary:
 
-The purpose of this analysis was to determine which of the models was most reliable in detecting high risk loans ("bad" risk). 
-The first question to answer is whether precision or sensitivity is most important. For this analysis I concluded that precision
-is more important than sensitivity. I believe it is more important to identify "bad" risk and possibly allow a small
-number of "bad" risk credit to be extended than to deny credit to a "good" risk candidate. There are options available for
-companies to address repayment problems in order to mitigate loss, while companies face the prospect of absolute loss of revenue 
-if they decline "good" risk candidates.
+The purpose of this analysis was to determine which of the models was a "best fit" for detecting high risk loans ("bad" risk). 
+Both of the ensemble models sigificantly outperformed the oversampling and undersampling models in terms of accuracy. Of the two ensemble methods, the Easy Ensemble AdaBoot Classifier performed best with and accuracy score of 0.917 and a recall rate of 0.89. Of the models surveyed for this analysis, the Easy Ensemble AdaBoost Classifer provides the best results.
 
-The best performing models in assessing precision are:
-
-
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 
 <img src="https://github.com/tn64/Credit_Risk_Analysis/blob/main/Resources/last_cc.png">
 <!-- Photo by Dom J from Pexels -->
